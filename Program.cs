@@ -9,10 +9,11 @@ namespace DataStructureDemo
     {
         static void Main(string[] args)
         {
+
             CustomLinkedList customLinkedList = new CustomLinkedList();
-            customLinkedList.InsertLast(56);
-            customLinkedList.InsertLast(30);
-            customLinkedList.InsertLast(70);
+            customLinkedList.Append(56);
+            customLinkedList.Append(30);
+            customLinkedList.Append(70);
             customLinkedList.Display();
             Console.ReadLine();
         }
