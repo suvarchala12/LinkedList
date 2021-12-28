@@ -1,14 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
-namespace LinkedList
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace LinkList
 {
-    class program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("LinkedList");
-
+            CustomLinkedList customLinkedList = new CustomLinkedList();
+            customLinkedList.InsertLast(56);
+            customLinkedList.InsertLast(30);
+            customLinkedList.InsertLast(70);
+            customLinkedList.Display();
+            Console.ReadLine();
         }
     }
 }
-
